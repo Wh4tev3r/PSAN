@@ -3,22 +3,22 @@ A Pixel Script
 
 ------------
 Usage :
-|#|a|b|c|d|e|f|g|h|i|j|
+|#|1|2|3|4|5|6|7|8|9|0|
 |-|-|-|-|-|-|-|-|-|-|-|
-|__1__| | | | | | | | | | |
-|__2__| | | | | | | | | | |
-|__3__| | | | | | | | | | |
-|__4__| | | | | | | | | | |
-|__5__| | | | | | | | | | |
-|__6__| | | | | | | | | | |
-|__7__| | | | | | | | | | |
-|__8__| | | | | | | | | | |
-|__9__| | | | | | | | | | |
-|__0__| | | | | | | | | | |
+|__a__| | | | | | | | | | |
+|__b__| | | | | | | | | | |
+|__c__| | | | | | | | | | |
+|__d__| | | | | | | | | | |
+|__e__| | | | | | | | | | |
+|__f__| | | | | | | | | | |
+|__g__| | | | | | | | | | |
+|__h__| | | | | | | | | | |
+|__i__| | | | | | | | | | |
+|__j__| | | | | | | | | | |
 
 ------------
 Example :
 ```
 fr
-{'a1','a2','a3','a4','a5','a6','a7','a8','a9','a0','b1','b2','b3','b4','b5','b6','b7','b8','b9','b0','c1','c2','c3','c4','c5','c6','c7','c8','c9','c0','d1','d2','d3','d4','d5','d6','d7','d8','d9','d0','e1','e2','e3','e4','e5','e6','e7','e8','e9','e0','f1','f2','f3','f4','f5','f6','f7','f8','f9','f0','g1','g2','g3','g4','g5','g6','g7','g8','g9','g0','h1','h2','h3','h4','h5','h6','h7','h8','h9','h0','i1','i2','i3','i4','i5','i6','i7','i8','i9','i0','j1','j2','j3','j4','j5','j6','j7','j8','j9','j0'}
+{'a1':False,'a2':False,'a3':False,'a4':False,'a5':False,'a6':False,'a7':False,'a8':False,'a9':False,'a0':False,'b1':False,'b2':True,'b3':False,'b4':False,'b5':False,'b6':True,'b7':False,'b8':False,'b9:False','b0':False,'c1':False,'c2':True,'c3':False,'c4':False,'c5':False,'c6':True,'c7':False,'c8':False,'c9':False,'c0':False,'d1':False,'d2':True,'d3':True,'d4':True,'d5':True,'d6':True,'d7':False,'d8':False,'d9':False,'d0':False,'e1':False,'e2':True,'e3':False,'e4':False,'e5':False,'e6':True,'e7':False,'e8':False,'e9':False,'e0':False,'f1':False,'f2':True,'f3':False,'f4':False,'f5':False,'f6':True,'f7':False,'f8':False,'f9':False,'f0':False,'g1':False,'g2':False,'g3':False,'g4':False,'g5':False,'g6':False,'g7':False,'g8':False,'g9':False,'g0':False,'h1':False,'h2':False,'h3':False,'h4':False,'h5':False,'h6':False,'h7':False,'h8':False,'h9':False,'h0':False,'i1':False,'i2':False,'i3':False,'i4':False,'i5':False,'i6':False,'i7':False,'i8':False,'i9':False,'i0':False,'j1':False,'j2':False,'j3':False,'j4':False,'j5':False,'j6':False,'j7':False,'j8':False,'j9':False,'j0':False}
 ```
