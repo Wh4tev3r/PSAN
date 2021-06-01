@@ -12,12 +12,6 @@ except FileNotFoundError:
     raise FileNotFoundError('File not found')
 sc = sco.read().splitlines()
 sco.close()
-if sc[0] == 'lp':
-    loop = True
-elif sc[0] == 'fr':
-    loop = False
-else:
-    raise SyntaxError('Invalid Start')
 exec('a = '+sc[1])
 base = '| '
 nl = False
