@@ -25,8 +25,11 @@ for i in pattern:
     if nl:
         base += '\n'
         nl = False
-    if a[i]:
-        base += '#'
+    try:
+        if a[i]:
+            base += '3'
+    except KeyError:
+        base += ' '
     else:
         base += ' '
     if i.endswith('0'):
