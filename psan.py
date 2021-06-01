@@ -24,6 +24,7 @@ nl = False
 for i in pattern:
     if nl:
         base += '\n'
+        nl = False
     if a[i]:
         base += '#'
     else:
