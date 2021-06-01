@@ -19,17 +19,14 @@ elif sc[0] == 'fr':
 else:
     raise SyntaxError('Invalid Start')
 exec('a = '+sc[1])
-base = ''
+base = '| '
 nl = False
 for i in pattern:
     if nl:
-        base += '\n'
+        base += '\n| '
         nl = False
-    try:
-        if a[i]:
-            base += '3'
-    except KeyError:
-        base += ' '
+    if a[i]:
+        base += '#'
     else:
         base += ' '
     if i.endswith('0'):
